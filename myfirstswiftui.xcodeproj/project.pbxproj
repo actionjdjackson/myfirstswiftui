@@ -11,6 +11,14 @@
 		E20E3ACE2AEF3251007A8C19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3ACD2AEF3251007A8C19 /* ContentView.swift */; };
 		E20E3AD02AEF3253007A8C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20E3ACF2AEF3253007A8C19 /* Assets.xcassets */; };
 		E20E3AD32AEF3253007A8C19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20E3AD22AEF3253007A8C19 /* Preview Assets.xcassets */; };
+		E20E3ADA2AF0190F007A8C19 /* PlaypenSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E3AD92AF0190E007A8C19 /* PlaypenSans-VariableFont_wght.ttf */; };
+		E20E3ADD2AF019D8007A8C19 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E3ADC2AF019D7007A8C19 /* Pacifico-Regular.ttf */; };
+		E20E3AE22AF0286C007A8C19 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3AE12AF0286C007A8C19 /* InfoView.swift */; };
+		E20E3AE42AF032F3007A8C19 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3AE32AF032F3007A8C19 /* DiceView.swift */; };
+		E20E3AE72AF04296007A8C19 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3AE62AF04296007A8C19 /* NetworkManager.swift */; };
+		E20E3AE92AF04417007A8C19 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3AE82AF04417007A8C19 /* PostData.swift */; };
+		E20E3AEC2AF04B53007A8C19 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3AEB2AF04B53007A8C19 /* DetailView.swift */; };
+		E20E3AEE2AF0513B007A8C19 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E3AED2AF0513B007A8C19 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,16 @@
 		E20E3ACD2AEF3251007A8C19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E20E3ACF2AEF3253007A8C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20E3AD22AEF3253007A8C19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E20E3AD92AF0190E007A8C19 /* PlaypenSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaypenSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		E20E3ADC2AF019D7007A8C19 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		E20E3AE02AF01ED6007A8C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E20E3AE12AF0286C007A8C19 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E20E3AE32AF032F3007A8C19 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		E20E3AE62AF04296007A8C19 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E20E3AE82AF04417007A8C19 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		E20E3AEB2AF04B53007A8C19 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E20E3AED2AF0513B007A8C19 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E20E3AEF2AF05754007A8C19 /* myfirstswiftui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myfirstswiftui.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		E20E3ACA2AEF3251007A8C19 /* myfirstswiftui */ = {
 			isa = PBXGroup;
 			children = (
+				E20E3AEF2AF05754007A8C19 /* myfirstswiftui.entitlements */,
+				E20E3AE52AF0427D007A8C19 /* Models */,
+				E20E3AE02AF01ED6007A8C19 /* Info.plist */,
+				E20E3ADB2AF01916007A8C19 /* Fonts */,
 				E20E3ACB2AEF3251007A8C19 /* myfirstswiftuiApp.swift */,
-				E20E3ACD2AEF3251007A8C19 /* ContentView.swift */,
+				E20E3AEA2AF04B0C007A8C19 /* Views */,
 				E20E3ACF2AEF3253007A8C19 /* Assets.xcassets */,
 				E20E3AD12AEF3253007A8C19 /* Preview Content */,
 			);
@@ -65,6 +87,36 @@
 				E20E3AD22AEF3253007A8C19 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E20E3ADB2AF01916007A8C19 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E20E3AD92AF0190E007A8C19 /* PlaypenSans-VariableFont_wght.ttf */,
+				E20E3ADC2AF019D7007A8C19 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E20E3AE52AF0427D007A8C19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E20E3AE62AF04296007A8C19 /* NetworkManager.swift */,
+				E20E3AE82AF04417007A8C19 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E20E3AEA2AF04B0C007A8C19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E20E3ACD2AEF3251007A8C19 /* ContentView.swift */,
+				E20E3AE12AF0286C007A8C19 /* InfoView.swift */,
+				E20E3AE32AF032F3007A8C19 /* DiceView.swift */,
+				E20E3AEB2AF04B53007A8C19 /* DetailView.swift */,
+				E20E3AED2AF0513B007A8C19 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20E3AD32AEF3253007A8C19 /* Preview Assets.xcassets in Resources */,
+				E20E3ADD2AF019D8007A8C19 /* Pacifico-Regular.ttf in Resources */,
 				E20E3AD02AEF3253007A8C19 /* Assets.xcassets in Resources */,
+				E20E3ADA2AF0190F007A8C19 /* PlaypenSans-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +192,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20E3ACE2AEF3251007A8C19 /* ContentView.swift in Sources */,
+				E20E3AEE2AF0513B007A8C19 /* WebView.swift in Sources */,
+				E20E3AE92AF04417007A8C19 /* PostData.swift in Sources */,
+				E20E3AE42AF032F3007A8C19 /* DiceView.swift in Sources */,
+				E20E3AEC2AF04B53007A8C19 /* DetailView.swift in Sources */,
+				E20E3AE72AF04296007A8C19 /* NetworkManager.swift in Sources */,
+				E20E3AE22AF0286C007A8C19 /* InfoView.swift in Sources */,
 				E20E3ACC2AEF3251007A8C19 /* myfirstswiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +329,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = myfirstswiftui/myfirstswiftui.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myfirstswiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = QW6P6P89WZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myfirstswiftui/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,6 +349,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMacInnovations.myfirstswiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +362,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = myfirstswiftui/myfirstswiftui.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myfirstswiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = QW6P6P89WZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myfirstswiftui/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +382,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMacInnovations.myfirstswiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
